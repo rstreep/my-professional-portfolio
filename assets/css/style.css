@@ -5,7 +5,7 @@
 header {
     display: flex;
     align-items: flex-end;
-    background-color: navy;
+    background-color: #13293d;
     color: white;
     padding: 10px;
     font-size: 24px;
@@ -17,11 +17,11 @@ header {
 nav ul li {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-direction: row;
     font-size: 28px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    float: right;
+    /* float: right; */
 
 }
 
@@ -30,23 +30,30 @@ nav ul:hover {
 }
 
 main {
+    margin-left: 150px;
+    clear: both;
 
 }
 
 aside ul {
-    align-items: flex-start;
+    display: flex;
     list-style-type: none;
     float: left;
-    align-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    align-content: flex-end;
     padding: 20px;
     background-color: lightblue;
+    font-size: 20px;
+    height: 600px;
+    clear: left;
 }
 
 footer ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    background-color: darkblue;
+    background-color: #13293d;
     color: white;
     font-size: large;
     align-items: center;
