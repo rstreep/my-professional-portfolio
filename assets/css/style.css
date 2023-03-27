@@ -1,0 +1,71 @@
+* {
+    max-height: max-content;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-height: fit-content;
+    max-width: 100%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+
+}
+
+nav ul:hover {
+    cursor: pointer;
+}
+
+main {
+
+}
+
+aside ul {
+    align-items: flex-start;
+    list-style-type: none;
+    float: left;
+    align-content: space-around;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: darkblue;
+    color: white;
+    font-size: large;
+    align-items: center;
+    height: 50px;
+    clear: both;
+}
+
+footer ul:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+    X
+}
+
+@media screen and (max-width: 768px) {
+    X
+}
+
+@media screen and (max-width: 576px) {
+    X
+}
