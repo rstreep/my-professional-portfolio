@@ -67,11 +67,21 @@ figure {
     width: 400px;
 }
 
+#image1:hover {
+    cursor: pointer;
+    border-color: black;
+}
+
 #image2 {
     display: flex;
     border: 5px solid lightgray;
     height: 400px;
     width: 400px;
+}
+
+#image2:hover {
+    cursor: pointer;
+    border-color: black;
 }
 
 #image3 {
@@ -81,11 +91,21 @@ figure {
     width: 400px;
 }
 
+#image3:hover {
+    cursor: pointer;
+    border-color: black;
+}
+
 #image4 {
     display: flex;
     border: 5px solid lightgray;
     height: 400px;
     width: 500px;
+}
+
+#image4:hover {
+    cursor: pointer;
+    border-color: black;
 }
 
 nav ul:hover {
@@ -99,9 +119,9 @@ section {
     justify-content: space-around;
 }
 
-section:hover {
+#image1:hover {
     cursor: pointer;
-
+    border-color: black;
 }
 
 footer {
