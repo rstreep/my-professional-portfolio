@@ -9,12 +9,6 @@
 </head>
 
 <!-- GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
 WHEN I am presented with the developer's first application
 THEN that application's image should be larger in size than the others
 WHEN I click on the images of the applications
@@ -25,29 +19,44 @@ THEN I am presented with a responsive layout that adapts to my viewport -->
 <body>
     
     <header>
-        <h1> My Portfolio</h1>
+        <img src="assets/images/IMG_2290.jpg"><img>
+        <h1>Richard Streeper</h1>
         <nav>
             <ul>
-                <li>About Me</li>
-                <li>Work</li>
-                <li>Contact Me</li>
+                <li><a href="#about" style="color: white; text-decoration: none;">About Me</a></li>
+                <li><a href="#work" style="color: white; text-decoration: none;">Work</a></li>
+                <li><a href="#contact" style="color: white; text-decoration: none;">Contact Me</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <p>placeholder text</p>
+        <div>
+            <h2 id="about">About Me</h2>
+            <p id="bio">Hello my name is Richard Streeper. I began my coding career in March of 2023. I started coding because I have always found myself drawn to technology and have always been curious as to how certain things work. </p>
+        </div>
+        <div>
+            <h2 id="work">Work</h2>
+            <section>
+                <figure id="image1">
+                    <img src="./assets/images/corgi.jpg">Corgi</img>
+                </figure>
+                <figure id="image2">
+                    <img src="./assets/images/sadcorgi.jpg">Sad Corgi</img>
+                </figure>
+                <figure id="image3">
+                    <img src="./assets/images/angrycorgi.jpg">Angry Corgi</img>
+                </figure>
+                <figure id="image4">
+                    <img src="./assets/images/gentlemancorgi.jpg">Gentleman Corgi</img>
+                </figure>
+            </section>
+        </div>
+        
     </main>
 
-    <aside>
-        <ul>
-            <li>About Me</li>
-            <li>Work</li>
-            <li>Contact Me</li>
-        </ul>
-    </aside>
-
     <footer>
+        <h2 id="contact">Contact Me: </h2>
         <ul>
             <li>XXX-XXX-XXXX</li>
             <li>example@website.com</li>
