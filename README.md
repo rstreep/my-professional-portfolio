@@ -6,12 +6,27 @@ My goal with this assignment was to create a coding career portfolio that reflec
 
 ### Screenshots
 
+HTML:
+https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/html1.png?raw=true
+https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/html2.png?raw=true
+
+CSS:
+https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/css1.png?raw=true
+https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/css2.png?raw=true
+https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/css3.png?raw=true
+https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/css4.png?raw=true
+https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/css5.png?raw=true
+
+Reset CSS:
+https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/resetcss1.png?raw=true
+
+Application:
 
 
 #### Published Site
 
-
+https://rstreep.github.io/my-professional-portfolio/
 
 #### Github
 
-
+https://github.com/rstreep/my-professional-portfolio
