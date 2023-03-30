@@ -10,8 +10,6 @@
 </head>
 
 <!-- GIVEN I need to sample a potential employee's previous work
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
 WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
@@ -20,7 +18,7 @@ THEN I am presented with a responsive layout that adapts to my viewport -->
 <body>
     
     <header>
-        <img src="assets/images/IMG_2290.jpg"><img>
+        <img id="profile" src="assets/images/IMG_2290.jpg"></img>
         <h1>Richard Streeper</h1>
         <nav>
             <ul>
@@ -32,49 +30,31 @@ THEN I am presented with a responsive layout that adapts to my viewport -->
     </header>
 
     <main>
-        <div>
-            <!-- <h2 id="work">Work</h2> -->
-            <section>
-                <aside>
-                    <ul>
-                        <li>
-                            <h2 id="about">About Me</h2>
-                        </li>
-                        <li>
-                            <h2 id="work">Work</h2>
-                        </li>
-                    </ul>
-                </aside>
-                <section>
-                    <p id="bio">Hello my name is Richard Streeper. I began my coding career in March of 2023. I started coding because I have always found myself drawn to technology and have always been curious as to how certain things work. </p>
-                    <figure id="image1">
-                        <img src="./assets/images/corgi.jpg">Corgi</img>
-                    </figure>
-                    <figure>
-                        <img src="./assets/images/sadcorgi.jpg">Sad Corgi</img>
-                    </figure>
-                    <figure>
-                        <img src="./assets/images/angrycorgi.jpg">Angry Corgi</img>
-                    </figure>
-                    <figure>
-                        <img src="./assets/images/gentlemancorgi.jpg">Gentleman Corgi</img>
-                    </figure>
-                </section>
-            </section>
-        </div>
+        <aside>
+            <h2 id="about">About Me: </h2>
+            <h2 id="work">Work: </h2>
+            <h2 id="contact">Contact Me: </h2>
+        </aside>    
+        <section>
+            <p id="bio">Hello my name is Richard Streeper. I began my coding career in March of 2023. I started coding because I have always found myself drawn to technology and have always been curious as to how certain things work. </p>
+            <div id="workbody">
+                <a href="https://rstreep.github.io/horiseon-refactor/" id="horeison"><img id="horeison" src="./assets/images/_C__Users_stree_workspace_horiseon-refactor_index.html.png"></img>
+                    </a>
+                <a href="https://rstreep.github.io/Prework-Study-Guide/" id="prework"><img id="prework" src="./assets/images/_C__Users_stree_bootcamp_Prework-Study-Guide_prework-study-guide_index.html.png"></img></a>
+                <img id="placeholder1" src="./assets/images/angrycorgi.jpg"></img>
+                <img id="placeholder2" src="./assets/images/gentlemancorgi.jpg"></img>
+            </div>
+            <div id="contactfooter">
+                <ul>
+                    <li>Cell Phone: 267-566-1529</li>
+                    <li>Email: rstreep96@icloud.com</li>
+                    <li><a href="https://www.github.com/rstreep">Github</a></li>
+                </ul>
+            </div>
+                
+        </section>
         
     </main>
 
-    <footer>
-        <h2 id="contact">Contact Me: </h2>
-        <ul>
-            <li>XXX-XXX-XXXX</li>
-            <li>example@website.com</li>
-            <li>GitHub link</li>
-        </ul>
-    </footer>
-
-
-    
 </body>
 </html>
