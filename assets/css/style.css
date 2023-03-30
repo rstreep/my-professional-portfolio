@@ -166,10 +166,26 @@ section {
 @media screen and (max-width: 768px) {
     header {
         display: flex;
-        width: 300px;
+        width: 780px;
+    }
+
+    section {
+        width: 600px;
+    }
+
+    #prework {
+        width: 150px;
+    }
+
+    #placeholder1 {
+        width: 150px;
+    }
+
+    #placeholder2 {
+        width: 150px;
     }
 
     #contactfooter {
-        width:fit-content;
+        width: 770px;
     }
 }
