@@ -11,17 +11,14 @@ https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/htm
 https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/html2.png?raw=true
 
 CSS:
-https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/css1.png?raw=true
-https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/css2.png?raw=true
-https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/css3.png?raw=true
-https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/css4.png?raw=true
-https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/css5.png?raw=true
+
 
 Reset CSS:
 https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/resetcss1.png?raw=true
 
 Application:
-
+https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/app1.png?raw=true
+https://github.com/rstreep/my-professional-portfolio/blob/main/assets/images/app2.png?raw=true
 
 #### Published Site
 
