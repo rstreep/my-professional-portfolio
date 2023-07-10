@@ -153,14 +153,14 @@ section {
     border-color: black;
 }
 
-#placeholder2 {
+#project2 {
     height: 200px;
     width: 390px;
     border: 5px solid lightgray;
     object-fit: cover;
 }
 
-#placeholder2:hover {
+#project2:hover {
     cursor: pointer;
     border-color: black;
     content: text "Placeholder2";
